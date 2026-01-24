@@ -644,33 +644,51 @@ scene("welcome", () => {
     // Titre du jeu
     add([
         text("MINDHerd", { size: 64, font: "Times New Roman" }),
-        pos(width()/2, height()/4 ),
+        pos(width()/2, height()/4 - 20), // Remonté un peu
         anchor("center"),
         color(0, 0, 0),
         fixed()
     ]);
 
     add([
-        text("Dynamiques sociales équines", { size: 32,font: "Times New Roman"}),
-        pos(width()/2, height()/3 + 40),
+        text("Dynamiques sociales équines", { size: 32, font: "Times New Roman"}),
+        pos(width()/2, height()/3 ),
         anchor("center"),
         color(0, 0, 0),
         fixed()
     ]);
- 
+
+    // Texte explicatif sur la mécanique de survie
+    add([
+        text(" Vous dirigez un troupeau déjà fragile, confronté à un environnement hostile.\n\
+        Chaque décision a un coût : social, mental, collectif.\n\
+        Ne cherchez pas la bonne réponse, elle n’existe pas.\n\
+        Si le troupeau tient debout, alors vous avez réussi.\n\ ", { 
+            size: 20, 
+            font: "Times New Roman",
+            align: "center",
+            width: 800
+        }),
+        pos(width()/2, height()/2 - 30),
+        anchor("center"),
+        color(50, 50, 50), 
+        fixed(),
+        z(5)
+    ]);
+
     // Créer le bouton "JOUER"
     const jouerBtn = add([
-        rect(200, 60),       
-        pos(width()/2, height()/2 + 70),      
-        anchor("center"),    
-        color(0, 0, 0),      
-        area(),              
+        rect(200, 60),        
+        pos(width()/2, height()/2 + 90),       
+        anchor("center"),     
+        color(0, 0, 0),       
+        area(),               
         z(1),
     ]);
     
     const jouerTxt = add([
         text("JOUER", { size: 32, font: "Times New Roman"}),
-        pos(width()/2, height()/2+ 70),
+        pos(width()/2, height()/2+ 90),
         anchor("center"),
         color(255, 255, 255), 
         fixed(),
@@ -696,14 +714,13 @@ scene("welcome", () => {
     // Texte d'instruction
     add([
         text("Appuyez sur ESPACE pour lancer le jeu", { size: 20, font: "Times New Roman"}),
-        pos(width()/2, height()/2 + 150),
+        pos(width()/2, height()/2 + 170),
         anchor("center"),
         color(0, 0, 0),
         fixed(),
         z(9)
     ]);
 
-   
     // Navigation au clavier
     onKeyPress("space", () => {
         go("main");

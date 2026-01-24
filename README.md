@@ -136,7 +136,7 @@ Cette étude sur la stabilité sociale a permis de calibrer les jauges de Cohés
 
 ## Contexte de développement
 
-Ce projet a été développé dans le cadre du cours *Jeu vidéo 2D* dispensé par Isaac Pante (SLI, Lettres, UNIL). Ce jeu a été pensé dans le but de répondre à la thématique sur l’intelligence (IA), organisée à l’EPFL. L’objectif était de proposer une approche alternative et sensible de la notion d’intelligence, en l’explorant à travers le médium du jeu vidéo.
+Ce projet a été développé dans le cadre du cours *Jeu vidéo 2D* dispensé par Isaac Pante (SLI, Lettres, UNIL). Ce jeu a été pensé dans le but de répondre à la thématique sur l’intelligence (IA), organisée pour la journée des mystères à l'UNIL. L’objectif était de proposer une approche alternative et sensible de la notion d’intelligence, en l’explorant à travers le médium du jeu vidéo.
 
 Passionnée d’équitation, j’ai vu dans ce projet l’occasion de relier deux domaines qui m'entourent : le jeu vidéo et le monde équestre. Les chevaux sont des êtres extrêmement sensibles et intelligents, dotés de capacités cognitives complexes, notamment en matière de mémoire, d’apprentissage et de perception émotionnelle. Certaines études comparent d’ailleurs leur mémoire à celle d’animaux reconnus pour leurs capacités mnésiques élevées, comme l’éléphant.
 
