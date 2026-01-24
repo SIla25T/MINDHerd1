@@ -69,6 +69,9 @@ git clone  https://github.com/SIla25T/MINDherd.git
 
 
 
+[🎮 Jouer à la version en ligne sur Itch.io](https://senailana.itch.io/mindherd)
+
+
 ## Dépendances et technologies utilisées
 
 
